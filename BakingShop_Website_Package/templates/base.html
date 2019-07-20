@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if title %}
+            <title> Baking_Website - {{title}} </title>
+        {% else %}
+            <title> Baking Website</title>
+        {% endif %}
+        <link rel="shortcut icon" href="http://127.0.0.1:5000/static/favicon.ico">
+        <nav> 
+            <!-- List of Img:Logo, WhiteText:Home, WhiteText:Shop, WhiteText:Faq, Img:Cart with red circle and number, 
+                Profile/Sign up button. Background will be brown.-->
+            <!-- On the home page, the background will be transparent. When you scroll down it will appear and 
+                become sticky. The navbar will be sticky on all other pages as well.-->
+        </nav>
+    </head>
+        <body>
+            {% block content %} {% endblock %}
+        </body>
+    <footer>
+        <h3>Footer</h3>
+    </footer>
+</html>

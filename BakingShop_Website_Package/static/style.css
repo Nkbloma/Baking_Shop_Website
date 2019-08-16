@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.NavigationFlexBox {
+  display: flex;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  background-color: #502000;
+}
+
+.NavigationFlexBox > img{
+  max-width: 70%;
+  height: auto;
+}
+
+.wrapper {
+    display: grid;
+  }
+  
+  .wrapper {
+    margin: 5em;
+    border: 2px solid #f76707;
+    border-radius: 10px;
+    background-color: #fff4e6;
+  }
+  
+  .wrapper > div {
+    border: 2px solid #ffa94d;
+    border-radius: 1px;
+    padding: 2em;
+    color: #d9480f;
+  }
